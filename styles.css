@@ -709,3 +709,42 @@ header {
 #logout-button:hover {
     box-shadow: 0 0 20px #FF0000, 0 0 40px #FF0000; /* Усиление неона при наведении */
 }
+.ps5-promo {
+    background: #111;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 60px;
+    border-top: 2px solid cyan;
+}
+
+.ps5-promo h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #00bfff;
+}
+
+.ps5-promo p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.video-container {
+    position: relative;
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 33.75%; /* для пропорции 16:9 на 600px ширину */
+    height: 0;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 0 25px cyan;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+}
